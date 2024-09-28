@@ -1,6 +1,6 @@
 # classification-challenge
 
-# Dataset
+# Dataset:
 The dataset consists of email data labeled as either spam or not spam. Each email is represented by a set of features (such as word_freq_make,	word_freq_addresss, etc.) which help the model learn to differentiate between spam and legitimate messages.
 
 # Data Columns:
@@ -13,7 +13,7 @@ Testing Data: Used to evaluate model performance,
 Feature Scaling
 To ensure that models like Logistic Regression & Random Forest perform optimally, the feature data was scaled using StandardScaler. Scaling helps in speeding up convergence and improving accuracy.
 
- # Models Used:
+# Models Used:
 1. Logistic Regression
 A simple and interpretable linear model used for binary classification. Logistic Regression assigns probabilities to each class (spam or not spam) and classifies based on a threshold (typically 0.5).
 
