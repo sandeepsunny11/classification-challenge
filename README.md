@@ -6,12 +6,7 @@ The dataset consists of email data labeled as either spam or not spam. Each emai
 # Data Columns:
 Features like email content, frequency of certain words, presence of specific characters, etc.
 Target: A binary label (1 = Spam, 0 = Not Spam).
-The dataset is split into:
-
-# Training Data: Used to train the models:
-Testing Data: Used to evaluate model performance,
-Feature Scaling
-To ensure that models like Logistic Regression & Random Forest perform optimally, the feature data was scaled using StandardScaler. Scaling helps in speeding up convergence and improving accuracy.
+The dataset is split into: Training Data: Used to train the models, Testing Data: Used to evaluate model performance, Feature Scaling, To ensure that models like Logistic Regression & Random Forest perform optimally, the feature data was scaled using StandardScaler. Scaling helps in speeding up convergence and improving accuracy.
 
 # Models Used:
 1. Logistic Regression
